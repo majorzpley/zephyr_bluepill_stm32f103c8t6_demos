@@ -1,0 +1,6 @@
+board:
+  name: custom_bluepill
+  full_name: STM32F103C8T6 Minimum Development Board
+  vendor: st
+  socs:
+    - name: stm32f103xb
