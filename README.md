@@ -14,3 +14,4 @@
   **002UART_Demo**:使用串口一(PA9和PA10)收发实验<br>
   **003I2c_MPU6050_Demo**:读取陀螺仪MPU6050的I2c实验<br>
   **004I2c_SSD1306_Demo**:使用SSD1306的I2C接口来进行点亮oled实验<br>
+  **005SingleWire_DS18B20_Demo**:使用PA1读取单总线设备DS18B20，虽然zephyr已经有此驱动，但是貌似是arduino架构的，没有成功，故自己添加了驱动(没有注册)<br>
