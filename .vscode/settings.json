@@ -1,0 +1,25 @@
+{
+    "terminal.integrated.defaultProfile.windows": "Zephyr IDE Terminal",
+    "C_Cpp.default.compileCommands": "${workspaceFolder}\\.vscode\\compile_commands.json",
+    "cmake.configureOnOpen": false,
+    "zephyr-ide.use-zephyr-ide-json": true,
+    "zephyr-ide.projects": null,
+    "files.associations": {
+        "gpio.h": "c",
+        "kernel.h": "c",
+        "devicetree.h": "c",
+        "devicetree_generated.h": "c",
+        "led.h": "c",
+        "i2c.h": "c",
+        "stm32_clock_control.h": "c",
+        "ssd1306_regs.h": "c",
+        "device.h": "c",
+        "display.h": "c",
+        "errno.h": "c",
+        "printk.h": "c",
+        "cfb.h": "c",
+        "float.h": "c"
+    },
+    "devicetree.zephyr": "${workspaceFolder}\\external\\zephyr",
+    "kconfig.zephyr.base": "${workspaceFolder}\\external\\zephyr",
+}

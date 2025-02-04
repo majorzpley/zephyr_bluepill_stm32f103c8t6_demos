@@ -1,0 +1,169 @@
+{
+  "projects": {
+    "001Blink_Demo": {
+      "rel_path": "001Blink_Demo",
+      "name": "001Blink_Demo",
+      "buildConfigs": {
+        "build\\custom_bluepill": {
+          "relBoardDir": "boards",
+          "board": "custom_bluepill",
+          "relBoardSubDir": "arm\\custom_bluepill",
+          "name": "build\\custom_bluepill",
+          "westBuildArgs": "",
+          "westBuildCMakeArgs": " -DCONFIG_DEBUG_OPTIMIZATIONS=y -DCONFIG_DEBUG_THREAD_INFO=y ",
+          "confFiles": {
+            "config": [],
+            "extraConfig": [],
+            "overlay": [],
+            "extraOverlay": []
+          },
+          "runnerConfigs": {
+            "jlink": {
+              "runner": "jlink",
+              "name": "jlink",
+              "args": ""
+            }
+          }
+        }
+      },
+      "confFiles": {
+        "config": [],
+        "extraConfig": [],
+        "overlay": [],
+        "extraOverlay": []
+      }
+    },
+    "002UART_Demo": {
+      "rel_path": "002UART_Demo",
+      "name": "002UART_Demo",
+      "buildConfigs": {
+        "build\\custom_bluepill": {
+          "relBoardDir": "boards",
+          "board": "custom_bluepill",
+          "relBoardSubDir": "arm\\custom_bluepill",
+          "name": "build\\custom_bluepill",
+          "westBuildArgs": "",
+          "westBuildCMakeArgs": " -DCONFIG_DEBUG_OPTIMIZATIONS=y -DCONFIG_DEBUG_THREAD_INFO=y ",
+          "confFiles": {
+            "config": [],
+            "extraConfig": [],
+            "overlay": [],
+            "extraOverlay": []
+          },
+          "runnerConfigs": {
+            "jlink": {
+              "runner": "jlink",
+              "name": "jlink",
+              "args": ""
+            }
+          }
+        }
+      },
+      "confFiles": {
+        "config": [],
+        "extraConfig": [],
+        "overlay": [],
+        "extraOverlay": []
+      }
+    },
+    "003I2c_MPU6050_Demo": {
+      "rel_path": "003I2c_MPU6050_Demo",
+      "name": "003I2c_MPU6050_Demo",
+      "buildConfigs": {
+        "build\\custom_bluepill": {
+          "relBoardDir": "boards",
+          "board": "custom_bluepill",
+          "relBoardSubDir": "arm\\custom_bluepill",
+          "name": "build\\custom_bluepill",
+          "westBuildArgs": "",
+          "westBuildCMakeArgs": " -DCONFIG_DEBUG_OPTIMIZATIONS=y -DCONFIG_DEBUG_THREAD_INFO=y ",
+          "confFiles": {
+            "config": [],
+            "extraConfig": [],
+            "overlay": [],
+            "extraOverlay": []
+          },
+          "runnerConfigs": {
+            "jlink": {
+              "runner": "jlink",
+              "name": "jlink",
+              "args": ""
+            }
+          }
+        }
+      },
+      "confFiles": {
+        "config": [],
+        "extraConfig": [],
+        "overlay": [],
+        "extraOverlay": []
+      }
+    },
+    "004I2c_SSD1306_Demo": {
+      "rel_path": "004I2c_SSD1306_Demo",
+      "name": "004I2c_SSD1306_Demo",
+      "buildConfigs": {
+        "build\\custom_bluepill": {
+          "relBoardDir": "boards",
+          "board": "custom_bluepill",
+          "relBoardSubDir": "arm\\custom_bluepill",
+          "name": "build\\custom_bluepill",
+          "westBuildArgs": "",
+          "westBuildCMakeArgs": " -DCONFIG_DEBUG_OPTIMIZATIONS=y -DCONFIG_DEBUG_THREAD_INFO=y ",
+          "confFiles": {
+            "config": [],
+            "extraConfig": [],
+            "overlay": [],
+            "extraOverlay": []
+          },
+          "runnerConfigs": {
+            "jlink": {
+              "runner": "jlink",
+              "name": "jlink",
+              "args": ""
+            }
+          }
+        }
+      },
+      "confFiles": {
+        "config": [],
+        "extraConfig": [],
+        "overlay": [],
+        "extraOverlay": []
+      }
+    },
+    "005SingleWire_DS18B20_Demo": {
+      "rel_path": "005SingleWire_DS18B20_Demo",
+      "name": "005SingleWire_DS18B20_Demo",
+      "buildConfigs": {
+        "build\\custom_bluepill": {
+          "relBoardDir": "boards",
+          "board": "custom_bluepill",
+          "relBoardSubDir": "arm\\custom_bluepill",
+          "name": "build\\custom_bluepill",
+          "westBuildArgs": "",
+          "westBuildCMakeArgs": " -DCONFIG_DEBUG_OPTIMIZATIONS=y -DCONFIG_DEBUG_THREAD_INFO=y ",
+          "confFiles": {
+            "config": [],
+            "extraConfig": [],
+            "overlay": [],
+            "extraOverlay": []
+          },
+          "runnerConfigs": {
+            "jlink": {
+              "runner": "jlink",
+              "name": "jlink",
+              "args": ""
+            }
+          }
+        }
+      },
+      "confFiles": {
+        "config": [],
+        "extraConfig": [],
+        "overlay": [],
+        "extraOverlay": []
+      }
+    }
+  }
+}
